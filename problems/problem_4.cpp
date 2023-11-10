@@ -8,7 +8,7 @@ std::string problemSolution4(const std::string &macAddress) {
         result = "Broadcast";
     } else if (stoi(macAddress[1]) % 2 == 0) {
         result = "Unicast";
-    } else if (stoi(macAddress[1]) % 2 == 1) {
+    } else {
         result = "Multicast";
     }
     
