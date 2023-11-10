@@ -19,6 +19,7 @@ std::string problemSolution3(float height, char S) {
         } else if (height >= 1.75) {
             result = "Tall";
         }
+    }
 
     // use return to return your result
     return result;
