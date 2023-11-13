@@ -19,8 +19,7 @@ void problemSolution1(float consumed_water) {
 
     return cost;
 }
-
-int main() {
+    int main() {
     double consumption =0;
     cout<<" Enter the value of consumption\n";
     cin>>consumption;
