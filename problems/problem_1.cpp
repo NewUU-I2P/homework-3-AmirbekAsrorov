@@ -2,10 +2,6 @@ void problemSolution1(float consumed_water) {
     float cost;
     // write your code here
 
-   double calculateWaterCost(double consumption) {
-    double fixedAmount = 13.0;
-    double cost = fixedAmount;
-
     if (consumption <= 30.0) {
         cost += consumption * 0.4;
     } else if (consumption <= 50.0) {
