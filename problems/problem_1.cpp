@@ -14,13 +14,3 @@ float problemSolution1(float consumed_water) {
 
     return cost;
 }
-
-int main() {
-    double consumed_water =0;
-    cin>>consumed_water;
-    double totalCost = calculateWaterCost(consumed_water);
-    cout << "The total cost for a water consumed_water of " << consumed_water << " cubic meters is: " << totalCost << endl;
-
-    return 0;
-}
-
