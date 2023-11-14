@@ -1,0 +1,58 @@
+#include <iostream>
+#include <cmath>
+#include "math.h"
+using namespace std;
+int main() {
+
+//problem_1;
+
+//        int i=0;
+//        for(int i=0; i<10; i++){
+//            cout<<i<<endl;
+//        }
+
+//  Problem_2;
+//    int i=0;
+//    int sum;
+//    for (int i = 0; i < 10 ; i++) {
+//        cout<<i<<"\n";
+//        sum+=i;
+//    }
+//    cout<<sum<<endl;
+
+
+// Problem_3;
+
+
+//    for (int i = 1; i < 100 ; i++) {
+//        if(i%5==0){
+//            continue;
+//        }
+//        cout<<i<<"  ";
+//    }
+
+// Problem_4;
+
+//    int n;
+//    cout << "Enter a number (n): ";
+//    cin >> n;
+//
+//    cout << "Numbers divisible by 10 from 0 to " << n << ":\n";
+//    for (int i = 0; i <= n; i++) {
+//        if (i % 10 == 0) {
+//            cout << i << " ";
+//        }
+//    }
+// Problem_5;
+
+//         int count = 0;
+//        for (int i = 65; i <= 90; i++) {
+//            cout << static_cast<char>(i) << " ";
+//            count++;
+//            if (count % 5 == 0) {
+//                cout <<endl;
+//            }
+//        }
+
+        return 0;
+    }
