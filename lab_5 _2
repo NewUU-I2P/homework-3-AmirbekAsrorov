@@ -1,0 +1,206 @@
+#include <iostream>
+#include <iostream>
+#include <cmath>
+#include "math.h"
+using namespace std;
+//int main() {
+
+//problem_1;
+
+//        int i=0;
+//        for(int i=0; i<10; i++){
+//            cout<<i<<endl;
+//        }
+
+//  Problem_2;
+//    int i=0;
+//    int sum;
+//    for (int i = 0; i < 10 ; i++) {
+//        cout<<i<<"\n";
+//        sum+=i;
+//    }
+//    cout<<sum<<endl;
+
+
+// Problem_3;
+
+
+//    for (int i = 1; i < 100 ; i++) {
+//        if(i%5==0){
+//            continue;
+//        }
+//        cout<<i<<"  ";
+//    }
+
+// Problem_4;
+
+//    int n;
+//    cout << "Enter a number (n): ";
+//    cin >> n;
+//
+//    cout << "Numbers divisible by 10 from 0 to " << n << ":\n";
+//    for (int i = 0; i <= n; i++) {
+//        if (i % 10 == 0) {
+//            cout << i << " ";
+//        }
+//    }
+// Problem_5;
+
+//         int count = 0;
+//        for (int i = 65; i <= 90; i++) {
+//            cout << static_cast<char>(i) << " ";
+//            count++;
+//            if (count % 5 == 0) {
+//                cout <<endl;
+//            }
+//        }
+
+//    return 0;
+//}
+int main() {
+//  int n;
+//  cin>>n;
+//  for(int i = 0 ; i < n ; i++ ){
+//   cout<<"*";
+//      for (int j = 0; j < i; j++ ) {
+//          cout<<"*";
+//      }
+//      if (i%n==i){
+//          cout<<"\n";
+//      }
+//  }
+//  int n;
+//  cin>>n;
+//  for(int i = 1 ; i <=n ; i++ ){
+//      for (int j = 1 ; j <= i; j++ ) {
+//          cout<<i;
+//      }
+//    cout<<"\n";
+// }
+
+//    int n;
+//    cout<<" Enter the number";
+//    cin>>n;
+//    float sum=0;
+//    cout<<n;
+//    for(int i =1; i<=n; i++){
+//        cout<<"/"<<i<<'+'<<n;
+//        sum=sum+1/(float)i;
+//    }
+//    cout<<"\n Sum is "<<sum<<endl;
+//
+// *   int n;
+//    cout<<" Enter the number ";
+//    cin>>n;
+//    float sum=0;
+//    for(int i=1; i<=n; i++){
+//        sum=sum+1/(float)i;
+//        if(i==n){
+//            cout<<"1/"<<i<<"+";
+//        }else{
+//            cout<<"1/"<<i<<"+";
+//        }
+//    }
+//    cout<<"\n Sum is "<<sum<<endl;
+//    x;  */
+
+//    double rent = 1000; // Initial rent
+//    double increaseRate = 0.03; // 3% increase rate
+//    double totalRent = 0; // Total rent for 5 years
+//  Problem_
+//    cout << "Year\tRent" << endl;
+//    for (int year = 1; year <= 5; year++) {
+//        double yearlyRent = rent * (1 + increaseRate);
+//        totalRent += yearlyRent;
+//        cout << year << "\t$" << yearlyRent << endl;
+//        rent = yearlyRent;
+//    }
+//
+//    cout << "Total rent for 5 years: $" << totalRent << endl;
+
+
+//    double rent = 1000;
+//    double increaseRate = 0.03;
+//    double totalRent = 0;
+//
+//    cout << "Year\tRent" << endl;
+//    for (int year = 1; year <= 5; year++) {
+//        double yearlyRent = rent * (1 + increaseRate);
+//        totalRent += yearlyRent;
+//
+//        cout << year << "\t$" << yearlyRent << endl;
+//
+//        rent = yearlyRent;
+//    }
+//
+//    cout << "Total rent for 5 years: $" << totalRent << endl;
+
+//      float rent=1000;
+//      int year=5;
+//      float total_yearly=0;
+//      float total_5_years=0;
+//      for(int i=1; i<= year; i++){
+//          rent=rent*1.03;
+//          total_yearly=rent*12;
+//          total_5_years=total_5_years+total_yearly;
+//          cout<<" Rent in "<<i<<" year is $"<<rent<<endl;
+//          cout<<" Total rent for "<<i<<" year is $"<<total_yearly<<endl;
+//      }
+//      cout<<" Total for 5 year is $"<<total_5_years<<endl;
+
+
+//    int number;
+//    int sum = 0;
+//    int digit;
+//    cout << "Enter an integer: ";
+//    cin >> number;
+//    while (number != 0) {
+//        digit = number % 10;
+//        sum += digit;
+//        number /= 10;
+//    }
+//
+//    cout << "The sum of the digits is: " << sum << endl;
+
+
+//    int binaryToDecimal(int binary) {
+//        int decimal = 0;
+//        int base = 1;
+//
+//        while (binary > 0) {
+//            int lastDigit = binary % 10;
+//            decimal += lastDigit * base;
+//            binary /= 10;
+//            base *= 2;
+//        }
+//
+//        return decimal;
+//
+//
+//        int binaryToDecimal(int number);
+//        int binaryNumber;
+//        cout << "Enter a binary number: ";
+//        cin >> binaryNumber;
+//
+//        int decimalNumber = binaryToDecimal(binaryNumber);
+//
+//        cout << "The decimal equivalent is: " << decimalNumber << endl;
+//}
+
+//  int b;
+//  cout<<" Enter your binary number:";
+//  cin>>b;
+//  int j=1;//2^0
+//  int r;
+//  int decimal=0;
+//  while(b>0){
+//      r=b%10;
+//      decimal=decimal+r*j;
+//      b=b/10;
+//      j=j*2;
+//  }
+//  cout<<" Decimal: "<<decimal<<endl;
+
+    
+        return 0;
+    }
